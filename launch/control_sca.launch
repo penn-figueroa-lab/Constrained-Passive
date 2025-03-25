@@ -1,0 +1,8 @@
+<launch>
+    <!--node name="QP" pkg="constr_passive" type="QP.py" output="screen"/-->
+    <!--node name="sca" pkg="constr_passive" type="sca.py" output="screen"/-->
+    <node name="QP_sca" pkg="constr_passive" type="QP_sca.py" output="screen"/>
+    <!--node name="QP_eca" pkg="constr_passive" type="QP_eca.py" output="screen"/-->
+    <!--node name="QP_withoutsca" pkg="constr_passive" type="QP_withoutsca.py" output="screen"/-->
+    <!--node name="QP_withouteca" pkg="constr_passive" type="QP_withouteca.py" output="screen"/-->
+</launch>
